@@ -3,6 +3,7 @@
         padding:0px;
         font-family: Arial, Helvetica, sans-serif;
 }
+<<<<<<< HEAD
 body{
         background-color: rosybrown;
 }
@@ -36,6 +37,15 @@ body{
 }
 
 .header-list li{
+=======
+
+.top-wrapper{
+        width: 100%;
+        background-image:url(../img/a.png);
+        background-size:cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+>>>>>>> e369d99b00a00250abf8396120ca37bc9c9e4e44
         display: inline-block;
         vertical-align:  middle;
         list-style: none;
