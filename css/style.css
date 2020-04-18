@@ -183,13 +183,14 @@ body {
 /*----------------------------------------ImpactZemi----------------------------------------*/
 .impactZemi{
         background-color: white;
-        padding: 40px 60px;
+        padding: 40px 120px;
+         padding-top: 80px;
 }
 .impactZemi h1{
         font-weight: normal;
         text-align: center;
         margin: 0px;
-        font-size: 4vw;
+        /* font-size: 80px; */
 }
 
 .impactZemi p{
@@ -199,13 +200,13 @@ body {
 
 .impactZemi .x{
         color:rgb(20, 20, 20);
-        font-size:10vw; 
+        font-size:6vw; 
         font-weight: bold;
         padding:5px;
 }
 .impactZemi .features{
-        width: 26vw;
-        border-radius: 3vw;
+        width: 13vw;
+        border-radius: 2vw;
         display: inline-block;
         color: white;
 }
@@ -215,7 +216,7 @@ body {
         font-family: Helvetica, sans-serif;
         font-weight: bold;
         padding: 10px;
-        font-size: 8vw;
+        font-size: 4vw;
         font-weight: bold; 
 }
 
@@ -237,15 +238,16 @@ body {
 .note-wrapper{
         background-color: white;
         margin: 0px;
-        padding: 40px 60px;
+        padding: 40px 120px;
         height:650px;
+        text-align: center;
 }
 
-.note-wrapper div{
-        width:31%;
+.note-wrapper .note-link div{
+        width:30%;
         height: 200px;
         float: left;
-        padding: 0px 1%;
+        margin: 1%;;
         text-align: center; 
 }
 
@@ -253,12 +255,17 @@ body {
         font-weight: normal;
         text-align: center;
         margin: 0px;
-        font-size: 4vw;
 }
 
 .note-wrapper .note-link{
         padding-top: 20px;
-        width: 100%;
-        display: block;
+        width: 80%;
+        display: inline-block;
         text-align: center;
+        margin: 0px;
+}
+
+.note-wrapper .note-embed{
+        float: left;
+        margin:10px;
 }
