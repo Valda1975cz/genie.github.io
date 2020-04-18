@@ -1,19 +1,22 @@
 * {
     margin: 0px;
     padding:0px;
-    font-family: "Open Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-family: "Hiragino Kaku Gothic ProN", "meiryo", sans-serif;
     font-weight: normal;
 }
-
+#highlight {
+        color:orange;
+        font-weight:bold;
+}
 
 body {
-    background-color: black;
+    background-color: rgb(15, 15, 15);
 }
 /*----------------------------------------header----------------------------------------*/
 #header {
     width: 100%;
     height: 70px;
-    background-color: rgb(10, 10, 10);
+    /* background-color: rgb(10, 10, 10); */
     vertical-align: middle;
     position: relative;
     
@@ -177,3 +180,54 @@ body {
         padding-bottom: 10px;
 }
 
+/*----------------------------------------ImpactZemi----------------------------------------*/
+.impactZemi{
+        background-color: white;
+        padding: 20px 60px;
+}
+.impactZemi h1{
+        font-weight: normal;
+        text-align: center;
+        padding: 10px 0px;
+}
+
+.impactZemi p{
+        padding: 12px;
+        line-height: 170%;
+}
+
+.impactZemi .x{
+        color:rgb(20, 20, 20);
+        font-size:10vw; 
+        font-weight: bold;
+        padding:5px;
+}
+.impactZemi .features{
+        width: 26vw;
+        border-radius: 3vw;
+        display: inline-block;
+        color: white;
+}
+
+.impactZemi .features-subject{
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 10px;
+        font-size: 8vw;
+        font-weight: bold; 
+}
+
+
+.impactZemi .impactZemi-two{
+        width: 100%;
+        padding: 14px 0px;
+        text-align: center;
+}
+
+.impactZemi img{
+        display: block;
+        width:100%;
+        margin:0 auto;
+        padding: 5px;
+}
