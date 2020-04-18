@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding:0px;
-    font-family: 'Noto Sans JP', Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
     font-weight: normal;
 }
 
@@ -82,6 +82,7 @@ body {
 .top-wrapper img {
     width: 100%;
     filter: contrast(110%);
+
 }
 
 .top-wrapper p {
@@ -115,6 +116,7 @@ body {
         color:rgb(255, 200, 0);
         padding:60px;
         font-size: 100px;
+        font-family: Futura, 'Century Gothic';
         margin: 0px;
 }
 
@@ -157,15 +159,15 @@ body {
 .footer-wrapper{
         background-color:white;
         width: 100%;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
 }
 
 .footer-wrapper img{
         display: block;
         margin:0 auto;
         width: 150px;
-        padding-top: 30px;
-        padding-bottom: 14px;
+        padding-top: 40px;
+        padding-bottom: 30px;
 }
 
 .footer-wrapper p{
