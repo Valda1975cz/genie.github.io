@@ -231,4 +231,34 @@ body {
         width:100%;
         margin:0 auto;
         padding: 5px;
+         height:600px;
+}
+/*----------------------------------------note----------------------------------------*/
+.note-wrapper{
+        background-color: white;
+        margin: 0px;
+        padding: 40px 60px;
+        height:650px;
+}
+
+.note-wrapper div{
+        width:31%;
+        height: 200px;
+        float: left;
+        padding: 0px 1%;
+        text-align: center; 
+}
+
+.note-wrapper  h1{
+        font-weight: normal;
+        text-align: center;
+        margin: 0px;
+        font-size: 4vw;
+}
+
+.note-wrapper .note-link{
+        padding-top: 20px;
+        width: 100%;
+        display: block;
+        text-align: center;
 }
