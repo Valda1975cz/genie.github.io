@@ -5,7 +5,7 @@
     font-weight: normal;
 }
 #highlight {
-        color:orange;
+        color:rgb(247, 218, 164);
         font-weight:bold;
 }
 
@@ -183,12 +183,13 @@ body {
 /*----------------------------------------ImpactZemi----------------------------------------*/
 .impactZemi{
         background-color: white;
-        padding: 20px 60px;
+        padding: 40px 60px;
 }
 .impactZemi h1{
         font-weight: normal;
         text-align: center;
-        padding: 10px 0px;
+        margin: 0px;
+        font-size: 4vw;
 }
 
 .impactZemi p{
@@ -221,7 +222,7 @@ body {
 
 .impactZemi .impactZemi-two{
         width: 100%;
-        padding: 14px 0px;
+        padding-bottom: 14px;
         text-align: center;
 }
 
