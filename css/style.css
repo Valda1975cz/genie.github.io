@@ -222,6 +222,7 @@ body {
         font-weight: normal;
         text-align: center;
         margin: 0px;
+        padding-bottom: 60px;
         /* font-size: 80px; */
 }
 
@@ -255,15 +256,15 @@ body {
 
 .impactZemi .impactZemi-two{
         width: 100%;
-        padding-bottom: 14px;
+        padding-bottom: 30px;
         text-align: center;
 }
 
 .impactZemi img{
         display: block;
-        width:100%;
+        width:70%;
         margin:0 auto;
-        padding: 5px;
+        padding-bottom: 30px;
 }
 /*----------------------------------------note----------------------------------------*/
 .note-wrapper{
