@@ -127,8 +127,7 @@ body {
 .wrapper-about_us .member-profile{
         display: block;
         width:80%;
-        height: 200px;
-        margin: 0 auto;
+        margin: 20px auto;
         /* text-align: center; */
 }
 .wrapper-about_us .member-info{
