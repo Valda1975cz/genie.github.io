@@ -111,29 +111,32 @@ body {
 .wrapper-about_us {
         background-color: white;
         color:rgb(100, 100, 100);
-        width: 100%;
-        
+        /* width: 100%; */
+        padding: 80px 120px;
 }
 
-.wrapper-about_us h1{
+.wrapper-about_us .pageTitle{
         color:rgb(255, 200, 0);
-        padding:60px;
+        /* padding:60px; */
         font-size: 100px;
         font-family: Futura, 'Century Gothic';
         margin: 0px;
+        padding-bottom: 80px;
 }
 
 .wrapper-about_us .member-profile{
-        display: inline-block;
+        display: block;
         width:80%;
         height: 200px;
-        margin-left: 10%;
+        margin: 0 auto;
+        /* text-align: center; */
 }
 .wrapper-about_us .member-info{
         display: inline-block;
         height: 100%;
         width: 60%;
         padding-left: 20px;
+        text-align: left;
 
 }
 .wrapper-about_us .member-name{
@@ -144,7 +147,6 @@ body {
 
 .wrapper-about_us .member-detail{
         line-height:170%; 
-        font-size: 14px;
         font-weight: lighter;
         clear: both;
         width: 100%;
@@ -155,6 +157,15 @@ body {
         display: inline-block;
         width:150px;
         float: left;
+        
+}
+
+.wrapper-about_us p{
+        /* padding: 12px; */
+        line-height: 170%;
+        width: 70%;
+        text-align: left;
+        display: inline-block;
 }
 
 
@@ -168,6 +179,7 @@ body {
         height: 240px;
         /* padding-bottom: 30px; */
         position: relative;
+        padding-top: 120px;
 }
 
 .footer-wrapper .image{
@@ -179,7 +191,7 @@ body {
 
         position: absolute; 
         /* bottom:10px; */
-        top: 30%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         -webkit-transform: translate(-50%, -50%);
@@ -214,21 +226,22 @@ body {
 /*----------------------------------------ImpactZemi----------------------------------------*/
 .impactZemi{
         background-color: white;
-        padding: 40px 120px;
-         padding-top: 80px;
-         
+        padding: 80px 120px;
 }
 .impactZemi h1{
         font-weight: normal;
         text-align: center;
         margin: 0px;
-        padding-bottom: 60px;
+        padding-bottom: 30px;
         /* font-size: 80px; */
 }
 
 .impactZemi p{
         padding: 12px;
         line-height: 170%;
+        width: 70%;
+        text-align: left;
+        display: inline-block;
 }
 
 .impactZemi .x{
@@ -264,7 +277,7 @@ body {
         display: block;
         width:70%;
         margin:0 auto;
-        padding-bottom: 30px;
+        padding:30px 0px;
 }
 /*----------------------------------------note----------------------------------------*/
 .note-wrapper{
@@ -302,3 +315,46 @@ body {
         float: left;
         margin:10px;
 }
+
+
+/*----------------------------------------works----------------------------------------*/
+.wrapper-works {
+        background-color: white;
+        color:rgb(100, 100, 100);
+        /* width: 100%; */
+        padding: 80px 120px;
+}
+.wrapper-works .pageTitle{
+        color:rgb(255, 200, 0);
+        /* padding:60px; */
+        font-size: 100px;
+        font-family: Futura, 'Century Gothic';
+        margin: 0px;
+        padding-bottom: 80px;
+}
+.wrapper-works h1{
+        font-weight: normal;
+        text-align: center;
+        margin: 0px;
+        padding-bottom: 30px;
+}
+
+.wrapper-works p{
+        /* padding: 12px; */
+        line-height: 170%;
+        width: 70%;
+        text-align: left;
+        display: inline-block;
+}
+
+.wrapper-works img{
+        display: block;
+        width:70%;
+        margin:0 auto;
+        padding:30px 0px;
+}
+
+
+
+
+
