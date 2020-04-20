@@ -5,10 +5,7 @@
     font-weight: normal;
 }
 
-div{
-        border: 4pxsolid;
 
-}
 #highlight {
         color:orange;
         font-weight:bold;
@@ -56,8 +53,7 @@ body {
 }
 
 .header-list li {
-    display: inline-block;
-    vertical-align:middle;
+    display: block;
     list-style: none;
     float: left;
     padding: 0px 14px;
@@ -118,6 +114,8 @@ body {
         color:rgb(100, 100, 100);
         /* width: 100%; */
         padding: 80px 120px;
+        border:solid 4px rgba(255, 255, 255, 0);
+        
 }
 
 .wrapper-about_us .pageTitle{
@@ -159,7 +157,7 @@ body {
 }
 
 .wrapper-about_us img{
-        display: inline-block;
+        display: block;
         width:150px;
         float: left;
         
@@ -209,6 +207,7 @@ body {
         text-align: center;
         padding-bottom: 10px;
         color: white;
+        border:solid 4px rgba(255, 255, 255, 0);
 }
 
 .footer-wrapper .footer-bg{
@@ -232,6 +231,7 @@ body {
 .impactZemi{
         background-color: white;
         padding: 80px 120px;
+        border:solid 10px rgba(255, 255, 255, 0);
 }
 .impactZemi h1{
         font-weight: normal;
@@ -254,9 +254,10 @@ body {
         font-size:6vw; 
         font-weight: bold;
         padding:5px;
+        text-align: left;
 }
 .impactZemi .features{
-        width: 13vw;
+        width: 12vw;
         border-radius: 2vw;
         display: inline-block;
         color: white;
@@ -264,11 +265,12 @@ body {
 
 .impactZemi .features-subject{
         text-align: center;
-        font-family: Helvetica, sans-serif;
+        /* font-family: Helvetica, sans-serif; */
         font-weight: bold;
         padding: 10px;
         font-size: 4vw;
         font-weight: bold; 
+        /* vertical-align: middle; */
 }
 
 
@@ -276,6 +278,7 @@ body {
         width: 100%;
         padding-bottom: 30px;
         text-align: center;
+        /* vertical-align: middle; */
 }
 
 .impactZemi img{
@@ -292,6 +295,7 @@ body {
         padding: 40px 120px;
         height:650px;
         text-align: center;
+        border:solid 4px rgba(255, 255, 255, 0);
 }
 
 .note-wrapper .note-link div{
@@ -328,6 +332,7 @@ body {
         color:rgb(100, 100, 100);
         /* width: 100%; */
         padding: 80px 120px;
+        border:solid 4px rgba(255, 255, 255, 0);
 }
 .wrapper-works .pageTitle{
         color:rgb(255, 200, 0);
