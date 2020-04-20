@@ -4,6 +4,11 @@
     font-family: "Hiragino Kaku Gothic ProN", "meiryo", sans-serif;
     font-weight: normal;
 }
+
+div{
+        border: 4pxsolid;
+
+}
 #highlight {
         color:orange;
         font-weight:bold;
