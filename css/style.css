@@ -445,7 +445,9 @@ body {
 }
 /*以下contactsの内容*/
 .Topimage img { width: 100%; }
-.titol{font-size:400%;}
+.titol{font-size:400%;
+color: white;
+}
 .textcontact{width:500%
 color: white}
 .mailaddress{
