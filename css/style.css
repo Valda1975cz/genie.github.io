@@ -458,17 +458,13 @@ color:white;
    }
    .Subimage{
         overflow: hidden;
-        letter-spacing: -10em;
    }
    .subimage img {
         display: inline-block;
-        width: 25%;
         vertical-align: middle;
         letter-spacing: namal;
    }
    .subimage img a {
-       margin: -4em 0;
-       padding: 5em 1em;
        display :block;
        transition-duration: 0.5s;	/*変化に掛かる時間*/
   }
@@ -477,4 +473,4 @@ color:white;
    transition-duration: 0.5s;	/*変化に掛かる時間*/
   }
    .titol{font-size:400%;}
-   .Subimage img { width: 25%}
+   .Subimage img { width: 24%}
