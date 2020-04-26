@@ -54,7 +54,7 @@ a:visited:not(:hover):not(:active){
 }
 a:hover{
         color: rgb(255, 200, 0); 
-        border-bottom: 2px solid;
+        border-bottom: 1px solid;
         padding-bottom: 1%;
 }
 
@@ -166,15 +166,15 @@ body {
 .wrapper-about_us {
         background-color: white;
         color:rgb(100, 100, 100);
-        /* width: 100%; */
         padding: 80px 120px;
         border:solid 4px rgba(255, 255, 255, 0);
+        display: block;
+        /* text-align: center; */
         
 }
 
 .wrapper-about_us .pageTitle{
         color:rgb(255, 200, 0);
-        /* padding:60px; */
         font-size: 100px;
         font-family: Futura, 'Century Gothic';
         margin: 0px;
@@ -184,9 +184,10 @@ body {
 .wrapper-about_us .member-profile{
         display: block;
         width:80%;
-        height: 200px;
+        /* height: 200px; */
         margin: 0 auto;
-        /* text-align: center; */
+        margin-bottom: 20px;
+        
 }
 .wrapper-about_us .member-info{
         display: inline-block;
@@ -194,6 +195,7 @@ body {
         width: 60%;
         padding-left: 20px;
         text-align: left;
+        
 
 }
 .wrapper-about_us .member-name{
@@ -214,7 +216,7 @@ body {
         display: block;
         width:150px;
         float: left;
-        
+        /* text-align: center; */
 }
 
 .wrapper-about_us p{
