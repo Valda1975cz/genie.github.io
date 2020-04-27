@@ -453,6 +453,21 @@ color: white}
 .mailaddress{
   width: 80%
 }
+#photo {
+    width: 500px;
+    height: 380px;;
+    text-align: left;
+    position: relative
+    overflow: hidden;
+}
+
+
+
+#photo img {
+    top: 1000;
+    left: 0;
+    position: absolute;
+}
 .names{font-size:200%;
 color:white;
    }
@@ -466,11 +481,10 @@ color:white;
    }
    .subimage img a {
        display :block;
-       transition-duration: 0.5s;	/*変化に掛かる時間*/
   }
   .Subimage img:hover {
-   transform: scale(1.1);	/*画像の拡大率*/
-   transition-duration: 0.5s;	/*変化に掛かる時間*/
+   transform: scale(1.05);	/*画像の拡大率*/
+   transition-duration: 0.3s;	/*変化に掛かる時間*/
   }
    .titol{font-size:400%;}
-   .Subimage img { width: 24%}
+   .Subimage img { width: 49%}
