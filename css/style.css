@@ -1,490 +1,490 @@
 * {
-        margin: 0px;
-        padding: 0px;
-        font-family: "Hiragino Kaku Gothic ProN", "meiryo", sans-serif;
-        font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Hiragino Kaku Gothic ProN", "meiryo", sans-serif;
+  font-weight: normal;
 }
 
-
 #highlight {
-        color: orange;
-        font-weight: bold;
+  color: orange;
+  font-weight: bold;
 }
 
 #botton {
-        text-align: center;
-        vertical-align: middle;
-        background-color: rgba(255, 255, 255, 0);
-        border: solid 2px black;
-        /* width: auto; */
-        display: inline-block;
-        padding: 14px;
-        font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 2px black;
+  /* width: auto; */
+  display: inline-block;
+  padding: 14px;
+  font-size: 24px;
 }
 
 #youtube {
-        margin-top: 20px;
-        width: 100%;
-        /* height:width*56.25%;;  */
-
-        position: relative;
-        text-align: center;
-        /* padding: 0 100px; */
-        padding-bottom: 56.25%;
+  margin-top: 20px;
+  width: 100%;
+  /* height:width*56.25%;;  */
+  position: relative;
+  text-align: center;
+  /* padding: 0 100px; */
+  padding-bottom: 56.25%;
 }
 
 #youtube iframe {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100% !important;
-        height: 100% !important;
-
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
-
 a {
-        color: inherit;
-        text-decoration: none;
-        transition: color 0.65s;
-        font-family: 'Quicksand', sans-serif;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.65s;
+  font-family: 'Quicksand', sans-serif;
 }
 
 a:visited:not(:hover):not(:active) {
-        color: inherit;
+  color: inherit;
 }
 
 a:hover {
-
-        color: rgb(255, 200, 0);
-        border-bottom: 2px solid;
-        padding-bottom: 1%;
+  color: rgb(255, 200, 0);
+  border-bottom: 2px solid;
+  padding-bottom: 1%;
 }
 
 body {
-        background-color: rgb(15, 15, 15);
+  background-color: rgb(15, 15, 15);
 }
 
 /*----------------------------------------header----------------------------------------*/
 #header {
-        width: 100%;
-        height: 70px;
-        /* background-color: rgb(10, 10, 10); */
-        vertical-align: middle;
-        position: relative;
-
+  width: 100%;
+  height: 70px;
+  /* background-color: rgb(10, 10, 10); */
+  vertical-align: middle;
+  position: relative;
 }
 
 .header-logo {
-        overflow: visible;
-        /*余白を隠す*/
-        float: left;
-        padding: 0px 40px;
-        height: 100%;
-        position: absolute;
-        margin: auto;
-        top: 30%;
+  overflow: visible;
+  /*余白を隠す*/
+  float: left;
+  padding: 0px 40px;
+  height: 100%;
+  position: absolute;
+  margin: auto;
+  top: 30%;
 }
 
 .header-logo img {
-        height: 60%;
-        letter-spacing: normal;
-        /*画像の間隔を指定*/
-
+  height: 60%;
+  letter-spacing: normal;
+  /*画像の間隔を指定*/
 }
 
 .header-logo img:hover {
-        transform: scale(1.1);
-        /*画像の動く倍率*/
-        transition-duration: 0.5s;
-        /*画像の変化にかかる時間*/
+  transform: scale(1.1);
+  /*画像の動く倍率*/
+  transition-duration: 0.5s;
+  /*画像の変化にかかる時間*/
 }
 
 .header-list {
-        height: 100%;
-        float: right;
-        vertical-align: middle;
-        /* vertical-align: middle; */
+  height: 100%;
+  float: right;
+  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .header-list ul {
-        display: inline-block;
-        vertical-align: middle;
-        padding-top: 22px;
-        padding-right: 20px;
-        height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 22px;
+  padding-right: 20px;
+  height: 100%;
 }
 
 .header-list li {
-        display: block;
-        list-style: none;
-        float: left;
-        padding: 0px 14px;
-        font-size: 20px;
-
-        color: white;
+  display: block;
+  list-style: none;
+  float: left;
+  padding: 0px 14px;
+  font-size: 20px;
+  color: white;
 }
 
 .header-list a {
-        color: white;
-        text-decoration: none;
-        transition: color 0.65s;
-        font-family: 'Quicksand', sans-serif;
+  color: white;
+  text-decoration: none;
+  transition: color 0.65s;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .header-list a:visited:not(:hover):not(:active) {
-        color: #ffffff;
+  color: #ffffff;
 }
 
 .header-list a:hover {
-        color: rgb(255, 200, 0);
+  color: rgb(255, 200, 0);
 }
-
-
 
 /*----------------------------------------toppage----------------------------------------*/
 .top-wrapper {
-        width: 100%;
-        position: relative;
-        display: inline-block;
-        margin: 0px;
-        padding: 0px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
 }
 
 .top-wrapper img {
-        width: 100%;
-        height: 450px;
-        /* filter: contrast(110%); */
-        object-position: 50% 0%;
-        object-fit: cover;
-        /* height: 200px; */
-
+  width: 100%;
+  height: 450px;
+  /* filter: contrast(110%); */
+  object-position: 50% 0%;
+  object-fit: cover;
+  /* height: 200px; */
 }
-
 
 .top-wrapper p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        color: rgb(255, 200, 0);
-        text-align: center;
-        vertical-align: middle;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        /* background-color: blue; */
-        display: inline-block;
-        font-size: 8vw;
-        width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(255, 200, 0);
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /* background-color: blue; */
+  display: inline-block;
+  font-size: 8vw;
+  width: 100vw;
 }
-
 
 /*----------------------------------------about us----------------------------------------*/
 .wrapper-about_us {
-        background-color: white;
-        color: rgb(100, 100, 100);
-        padding: 80px 120px;
-        border: solid 4px rgba(255, 255, 255, 0);
-        display: block;
-
+  background-color: white;
+  color: rgb(100, 100, 100);
+  padding: 80px 120px;
+  border: solid 4px rgba(255, 255, 255, 0);
+  display: block;
 }
 
 .wrapper-about_us .pageTitle {
-        color: rgb(255, 200, 0);
-        font-size: 100px;
-        font-family: Futura, 'Century Gothic';
-        margin: 0px;
-        padding-bottom: 80px;
+  color: rgb(255, 200, 0);
+  font-size: 100px;
+  font-family: Futura, 'Century Gothic';
+  margin: 0px;
+  padding-bottom: 80px;
 }
 
 .wrapper-about_us .member-profile {
-        display: block;
-        width: 80%;
-        /* height: 200px; */
-        margin: 0 auto;
-        margin-bottom: 20px;
-
+  display: block;
+  width: 80%;
+  /* height: 200px; */
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .wrapper-about_us .member-info {
-        display: inline-block;
-        height: 100%;
-        width: 60%;
-        padding-left: 20px;
-        text-align: left;
-
-
+  display: inline-block;
+  height: 100%;
+  width: 60%;
+  padding-left: 20px;
+  text-align: left;
 }
 
 .wrapper-about_us .member-name {
-        font-size: 30px;
-        font-weight: bold;
-        padding-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 10px;
 }
 
 .wrapper-about_us .member-detail {
-        line-height: 170%;
-        font-weight: lighter;
-        clear: both;
-        width: 100%;
-        padding-top: 5px;
+  line-height: 170%;
+  font-weight: lighter;
+  clear: both;
+  width: 100%;
+  padding-top: 5px;
 }
 
 .wrapper-about_us img {
-        display: block;
-        width: 150px;
-        float: left;
+  display: block;
+  width: 150px;
+  float: left;
 }
 
 .wrapper-about_us p {
-        /* padding: 12px; */
-        line-height: 170%;
-        width: 70%;
-        text-align: left;
-        display: inline-block;
+  /* padding: 12px; */
+  line-height: 170%;
+  width: 70%;
+  text-align: left;
+  display: inline-block;
 }
-
 
 /*----------------------------------------footer----------------------------------------*/
 .footer-wrapper {
-        display: inline-block;
-        background-color: white;
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
-        height: 240px;
-        /* padding-bottom: 30px; */
-        position: relative;
-        padding-top: 120px;
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  height: 240px;
+  /* padding-bottom: 30px; */
+  position: relative;
+  padding-top: 120px;
 }
 
 .footer-wrapper .image {
-        display: block;
-        margin: 0 auto;
-        width: 270px;
-        /* padding-top: 40px; */
-        padding-bottom: 60px;
-
-        position: absolute;
-        /* bottom:10px; */
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
+  display: block;
+  margin: 0 auto;
+  width: 270px;
+  /* padding-top: 40px; */
+  padding-bottom: 60px;
+  position: absolute;
+  /* bottom:10px; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .footer-wrapper p {
-        font-size: 14px;
-        font-weight: lighter;
-        text-align: center;
-        padding-bottom: 10px;
-        color: white;
-        border: solid 4px rgba(255, 255, 255, 0);
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+  border: solid 4px rgba(255, 255, 255, 0);
 }
 
 .footer-wrapper .footer-bg {
-        width: 100%;
-        height: 240px;
-        padding: 0px;
-        margin: 0px;
+  width: 100%;
+  height: 240px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .footer-wrapper .footer-info {
-        display: inline-block;
-        position: absolute;
-        bottom: -25px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
+  display: inline-block;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 /*----------------------------------------ImpactZemi----------------------------------------*/
 .impactZemi {
-        background-color: white;
-        padding: 80px 120px;
-        border: solid 10px rgba(255, 255, 255, 0);
+  background-color: white;
+  padding: 80px 120px;
+  border: solid 10px rgba(255, 255, 255, 0);
 }
 
 .impactZemi h1 {
-        font-weight: normal;
-        text-align: center;
-        margin: 0px;
-        padding-bottom: 30px;
-        /* font-size: 80px; */
+  font-weight: normal;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 30px;
+  /* font-size: 80px; */
 }
 
 .impactZemi p {
-        padding: 12px;
-        line-height: 170%;
-        width: 70%;
-        text-align: left;
-        display: inline-block;
+  padding: 12px;
+  line-height: 170%;
+  width: 70%;
+  text-align: left;
+  display: inline-block;
 }
 
 .impactZemi .x {
-        color: rgb(20, 20, 20);
-        font-size: 6vw;
-        font-weight: bold;
-        padding: 5px;
-        text-align: left;
+  color: rgb(20, 20, 20);
+  font-size: 6vw;
+  font-weight: bold;
+  padding: 5px;
+  text-align: left;
 }
 
 .impactZemi .features {
-        width: 12vw;
-        border-radius: 2vw;
-        display: inline-block;
-        color: white;
+  width: 12vw;
+  border-radius: 2vw;
+  display: inline-block;
+  color: white;
 }
 
 .impactZemi .features-subject {
-        text-align: center;
-        /* font-family: Helvetica, sans-serif; */
-        font-weight: bold;
-        padding: 10px;
-        font-size: 4vw;
-        font-weight: bold;
-        /* vertical-align: middle; */
+  text-align: center;
+  /* font-family: Helvetica, sans-serif; */
+  font-weight: bold;
+  padding: 10px;
+  font-size: 4vw;
+  font-weight: bold;
+  /* vertical-align: middle; */
 }
 
-
 .impactZemi .impactZemi-two {
-        width: 100%;
-        padding-bottom: 30px;
-        text-align: center;
-        /* vertical-align: middle; */
+  width: 100%;
+  padding-bottom: 30px;
+  text-align: center;
+  /* vertical-align: middle; */
 }
 
 .impactZemi img {
-        display: block;
-        width: 70%;
-        margin: 0 auto;
-        padding: 30px 0px;
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px 0px;
 }
 
 /*----------------------------------------note----------------------------------------*/
 .note-wrapper {
-        /* display: inline-block; */
-        background-color: white;
-        margin: 0px;
-        padding: 40px 120px;
-        height: 650px;
-        text-align: center;
-        border: solid 4px rgba(255, 255, 255, 0);
+  /* display: inline-block; */
+  background-color: white;
+  margin: 0px;
+  padding: 40px 120px;
+  height: 650px;
+  text-align: center;
+  border: solid 4px rgba(255, 255, 255, 0);
 }
 
 .note-wrapper .note-link div {
-        width: 32%;
-        /* height: 200px; */
-        float: left;
-        padding: 2px;
-        text-align: center;
+  width: 32%;
+  /* height: 200px; */
+  float: left;
+  padding: 2px;
+  text-align: center;
 }
 
 .note-wrapper h1 {
-        font-weight: normal;
-        text-align: center;
-        margin: 0px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0px;
 }
 
 .note-wrapper .note-link {
-        padding-top: 20px;
-        width: 70%;
-        display: inline-block;
-        margin: 0 auto;
-
+  padding-top: 20px;
+  width: 70%;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .note-wrapper .note-embed {
-        float: left;
-        margin: 10px;
+  float: left;
+  margin: 10px;
 }
-
 
 /*----------------------------------------works----------------------------------------*/
 .wrapper-works {
-        background-color: white;
-        color: rgb(100, 100, 100);
-        /* width: 100%; */
-        padding: 80px 120px;
-        border: solid 4px rgba(255, 255, 255, 0);
+  background-color: white;
+  color: rgb(100, 100, 100);
+  /* width: 100%; */
+  padding: 80px 120px;
+  border: solid 4px rgba(255, 255, 255, 0);
 }
 
 .wrapper-works .pageTitle {
-        color: rgb(255, 200, 0);
-        /* padding:60px; */
-        font-size: 100px;
-        font-family: Futura, 'Century Gothic';
-        margin: 0px;
-        padding-bottom: 80px;
+  color: rgb(255, 200, 0);
+  /* padding:60px; */
+  font-size: 100px;
+  font-family: Futura, 'Century Gothic';
+  margin: 0px;
+  padding-bottom: 80px;
 }
 
 .wrapper-works h1 {
-        font-weight: normal;
-        text-align: center;
-        margin: 0px;
-        padding-bottom: 30px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 30px;
 }
 
 .wrapper-works p {
-        /* padding: 12px; */
-        line-height: 170%;
-        width: 70%;
-        text-align: left;
-        display: inline-block;
+  /* padding: 12px; */
+  line-height: 170%;
+  width: 70%;
+  text-align: left;
+  display: inline-block;
 }
 
 .wrapper-works img {
-        display: block;
-        width: 70%;
-        margin: 0 auto;
-        padding: 30px 0px;
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px 0px;
 }
+
 /*以下contactsの内容*/
-.Topimage img { width: 100%; }
-.titol{font-size:400%;
-color: white;
+.Topimage img {
+  width: 100%;
 }
-.textcontact{width:500%
-color: white}
-.mailaddress{
+
+.titol {
+  font-size: 400%;
+  color: white;
+}
+
+.textcontact {
+  width: 500% color: white
+}
+
+.mailaddress {
   width: 80%
 }
+
 #photo {
-    width: 500px;
-    height: 380px;;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
     text-align: left;
-    position: relative
     overflow: hidden;
+    position: relative
 }
 
 
 
 #photo img {
-    top: 1000;
-    left: 0;
     position: absolute;
 }
-.names{font-size:200%;
-color:white;
-   }
-   .Subimage{
-        overflow: hidden;
-   }
-   .subimage img {
-        display: inline-block;
-        vertical-align: middle;
-        letter-spacing: namal;
-   }
-   .subimage img a {
-       display :block;
-  }
-  .Subimage img:hover {
-   transform: scale(1.05);	/*画像の拡大率*/
-   transition-duration: 0.3s;	/*変化に掛かる時間*/
-  }
-   .titol{font-size:400%;}
-   .Subimage img { width: 49%}
+.names {
+  position: relative;
+  font-size: 200%;
+  color: white;
+}
+
+.Subimage {
+  overflow: hidden;
+}
+
+.subimage img {
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: namal;
+}
+
+.subimage img a {
+  display: block;
+}
+
+.Subimage img:hover {
+  transform: scale(1.05);
+  /*画像の拡大率*/
+  transition-duration: 0.3s;
+  /*変化に掛かる時間*/
+}
+
+.titol {
+  font-size: 400%;
+}
+
+.Subimage img {
+  width: 49%
+}
