@@ -11,6 +11,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript">
+  $(function(){
+      var setImg = '#photo';
+      var fadeSpeed = 1500;
+      var switchDelay = 3000;
+
+      $(setImg).children('img').css({opacity:'0'});
+      $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+      setInterval(function(){
+          $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+      },switchDelay);
+  });
+  </script>
 </head>
 
 <body>
@@ -34,21 +49,25 @@
     <a class="titol">
       Contacts
     </a>
-  </center>
-  <p class="Topimage">
-    <img src="https://assets.st-note.com/production/uploads/images/19521925/rectangle_large_type_2_1baa1d6e04e434163d4b46783cc25187.jpeg?fit=bounds&quality=45&width=1280">
-  </p>
-  <center>
+
+
+  <div id="photo">
+  <img src="https://assets.st-note.com/production/uploads/images/19521925/rectangle_large_type_2_1baa1d6e04e434163d4b46783cc25187.jpeg?fit=bounds&quality=60&width=1280" width="100%" height="300" alt="">
+  <img src="https://assets.st-note.com/production/uploads/images/21052992/rectangle_large_type_2_a22f56c93dca437026b7fbdd1481e45e.jpg?fit=bounds&quality=45&width=1280" width="100%" height="300" alt="">
+  <img src="https://assets.st-note.com/production/uploads/images/18817056/rectangle_large_type_2_7885c5436df51f57a8611548523026e8.jpeg?fit=bounds&quality=45&width=1280" width="100%" height="300" alt="">
+  </div>
     <a class="names">
       各種外部リンク
     </a>
   </center>
   <p class="Subimage">
-    <a href="mailto:impact.rits@gmail.com"><img src="./img/gmail.jpg" style="float:left;"></a>
-    <a href="https://note.com/250ritsumei"><img src="./img/note.jpg"></a>
-    <a href="https://www.youtube.com/channel/UCafzf_6JDquhSaCTN4NCO8Q?view_as=subscriber"><img src="./img/youtube.jpg"></a>
-    <a href="http://www.ritsumei.ac.jp/mrc/"><img src="./img/ritsumeikan.jpg"></a>
+    <a href="mailto:impact.rits@gmail.com"><img src="./img/mailicon.png"></a>
+    <a href="https://note.com/250ritsumei"><img src="./img/noteicon.png"></a>
   </p>
+  <p class="Subimage">
+  <a href="https://www.youtube.com/channel/UCafzf_6JDquhSaCTN4NCO8Q?view_as=subscriber"><img src="./img/youtubeicon.png"></a>
+  <a href="http://www.ritsumei.ac.jp/mrc/"><img src="./img/ritsumeikanicon.png"></a>
+</p>
 </body>
 
 <footer>
