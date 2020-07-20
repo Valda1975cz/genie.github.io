@@ -422,7 +422,23 @@ body {
   margin: 0 auto;
   padding: 30px 0px;
 }
-
+.title-size{
+  font-size: 30px;
+}
+.gallery{
+  margin: 20px;
+  padding: 10px;
+  background-color: #00CCFF;
+  color: white;
+  border-radius: 20px;
+}
+.gallery-instagram{
+  margin: 20px;
+  padding: 10px;
+  background-color: #CC3399;
+  color: white;
+  border-radius: 20px;
+}
 /*以下contactsの内容*/
 .Topimage img {
   width: 100%;
