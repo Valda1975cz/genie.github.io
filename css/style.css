@@ -426,14 +426,14 @@ body {
   font-size: 30px;
 }
 .gallery{
-  margin: 20px;
+  margin: 25%;
   padding: 10px;
   background-color: #00CCFF;
   color: white;
   border-radius: 20px;
 }
 .gallery-instagram{
-  margin: 20px;
+  margin: 25%;
   padding: 10px;
   background-color: #CC3399;
   color: white;
