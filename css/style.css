@@ -427,6 +427,8 @@ body {
 }
 .gallery{
   margin: 25%;
+  margin-bottom: 5%;
+  margin-top: auto;
   padding: 10px;
   background-color: #00CCFF;
   color: white;
@@ -434,6 +436,8 @@ body {
 }
 .gallery-instagram{
   margin: 25%;
+  margin-top: auto;
+  margin-bottom: 5%;
   padding: 10px;
   background-color: #CC3399;
   color: white;
